@@ -2,47 +2,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: aquamarine;
 }
-.container{
-    background-color: white;
-    height: 115px;
-    width: 370px;
-    font-size: 15px;
-    border-radius: 20px;
-    margin: 20px; /* для себя сделал, чтобы не прилипало к границам страницы */
-    font-weight: bold;
-    padding: 15px;
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #dfe5ec;
 }
-.widget{
-    background-color: #ff7d45;
-    height: 60px;
-    width: 340px;
-    border-radius: 20px;
+.switch__wrapper{
     display: flex;
+    gap: 20px;
+    padding: 6px;
+    background-color: white;
+    width: 800px;
     justify-content: space-between;
-    padding: 8px;
-    margin-top: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 17px 20px 30px 16px rgba(0,0,0,0.34);
+    box-shadow: inset 17px 20px 30px 16px rgba(0,0,0,0.34);
+    border: 3px solid white;
 }
-.day{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: transparent;
-    padding: 6px 4px;
-}
-.day.active {
-    background-color: white;
+.switch__item{
+    padding: 10px 20px;
     border-radius: 15px;
 }
-.day span {
-    background-color: transparent !important;
+.switch__item .active{
+    background-color: #8c5df6;
+    -webkit-box-shadow: 0px 0px 30px 11px rgba(0,0,0,0.34);
+    box-shadow: 0px 0px 30px 11px rgba(0,0,0,0.34);
+    padding: 10px 20px;
+    border-radius: 15px;
     color: white;
-}
-.day.active span {
-    color: #444;
-}
-.day_text{
-    font-weight: normal;
-    font-size: 14px;
 }
