@@ -1,0 +1,52 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper {
+    background-color: #ECF3FB;
+}
+.indent{
+    height: 100px;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+}
+
+[class*="container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+[class*="button-primary"] {
+    background-color: #1749B3;
+    border: none;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 9px 40px;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-wrap: nowrap;
+}
+
+[class*="button-primary"]:hover {
+    background-color: #606060;
+    transition: 0.3s ease-in-out;
+
+}
