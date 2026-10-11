@@ -1,0 +1,233 @@
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+}
+.intro__container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.intro__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.intro__text{
+    background-color: #1749B3;
+    color: #FFFFFF;
+    padding: 60px 50px;
+    border-radius: 25px;
+    height: 400px;
+    width: 100%;
+
+}
+.head__title{
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.head__subtitle{
+    line-height: 150%;
+    padding-bottom: 50px;
+}
+.head__button{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 16px 24px;
+    font-weight: bold;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.head__button:hover {
+    background-color: blue;
+    color: #FFFFFF;
+}
+.container__image{
+    max-width: 500px;
+}
+.container__image img {
+    width: 100%;
+    height: 100%;
+}
+.indent{
+    height: 100px;
+}
+.subscribe{
+    width: 100%;
+    padding: 50px 0; /* вообще не уверен что так правильно*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe__text{
+    font-weight: bold;
+    font-size: 30px;
+}
+.subscribe__container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.container__netflix{
+    position: relative;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.subscribe__container{
+    width: 100%;
+}
+.subscribe__wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.text__netflix{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 60px 40px;
+    max-width: 40%;
+    width: 100%;
+}
+.image__netflix{
+    width: 50%;
+    height: 29%;
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    z-index: 2;
+    padding: 106px 20px;
+}
+.image__netflix img{
+    max-width: 130px;
+    height: auto;
+    display: block;
+}
+.info__text{
+    font-size: 13px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+.subscribe__button{
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 16px 24px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.subscribe__button:hover {
+    background-color: #606060;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.container__spotify{
+    position: relative;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.text__spotify{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 60px 40px;
+    max-width: 40%;
+    width: 100%;
+}
+.image__spotify{
+    width: 50%;
+    height: 29%;
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ED760;
+    z-index: 2;
+    padding: 106px 20px;
+}
+.image__spotify img{
+    max-width: 70%;
+    border-radius: 30px;
+    height: 250px;
+    display: block;
+}
+
+
+
+
+.container__youtube{
+    position: relative;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.text__youtube{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 60px 40px;
+    max-width: 40%;
+    width: 100%;
+}
+.image__youtube{
+    width: 50%;
+    height: 29%;
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    z-index: 2;
+    padding: 106px 20px;
+}
+.image__youtube img{
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
