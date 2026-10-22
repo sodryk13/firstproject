@@ -71,21 +71,23 @@
     display: flex;
     gap: 15px;
 }
-.intro__wrapper{
+
+.intro__wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.intro__content{
+
+.intro__content {
     width: 100%;
     background-color: #FFFFFF;
     height: 500px;
 }
 
-.intro__content.blue{
+.intro__content.blue {
     background-color: #ff0404;
 }
-.intro__content.red{
-    background-color: #651919;
 
+.intro__content.red {
+    background-color: #651919;
 }

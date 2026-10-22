@@ -1,12 +1,13 @@
 body {
     font-family: "Noto Sans", sans-serif;
     font-size: 16px;
+    color: var(--color-text-primary);
 }
 
 img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 a {
@@ -17,9 +18,11 @@ a {
 .wrapper {
     background-color: #ECF3FB;
 }
-.indent{
+
+.indent {
     height: 100px;
 }
+
 .main {
     height: 100%;
     width: 100%;
@@ -27,7 +30,7 @@ a {
 }
 
 [class*="container"] {
-    max-width: 1200px;
+    max-width: var(--desktop);
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -48,6 +51,18 @@ a {
 [class*="button-primary"]:hover {
     background-color: #606060;
     transition: 0.3s ease-in-out;
-
 }
+
+@media (max-width: 768px) {
+    [class*="container"] {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    [class*="container"] {
+        padding: 0 25px;
+    }
+}
+
 

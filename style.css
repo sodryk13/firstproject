@@ -1,10 +1,11 @@
 
-body{
+body {
     font-family: "Open Sans", sans-serif;
     background-color: aliceblue;
     margin: 0;
 }
-.intro__container{
+
+.intro__container {
     max-width: 1200px;
     display: flex;
     justify-content: center;
@@ -12,31 +13,45 @@ body{
     align-items: center;
 
 }
-.intro__wrapper{
+
+.intro__wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.intro__text{
+
+.intro__text {
     background-color: #1749B3;
     color: #FFFFFF;
-    padding: 60px 50px;
+    padding: 50px;
     border-radius: 25px;
     height: 400px;
     width: 100%;
-
 }
-.head__title{
+
+.head__section .container__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.head__title {
     font-size: 36px;
     font-weight: bold;
     padding-bottom: 30px;
 }
-.head__subtitle{
+
+.head__subtitle {
     line-height: 150%;
     padding-bottom: 50px;
 }
-.head__button{
+
+.head__button {
     background-color: #FFFFFF;
     border: none;
     border-radius: 20px;
@@ -48,32 +63,39 @@ body{
     transition: background-color 0.3s ease;
     cursor: pointer;
 }
+
 .head__button:hover {
     background-color: blue;
     color: #FFFFFF;
 }
-.container__image{
+
+.container__image {
     max-width: 500px;
 }
+
 .container__image img {
     width: 100%;
     height: 100%;
 }
-.indent{
+
+.indent {
     height: 100px;
 }
-.subscribe{
+
+.subscribe {
     width: 100%;
     padding: 50px 0; /* вообще не уверен что так правильно*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.subscribe__text{
+
+.subscribe__text {
     font-weight: bold;
     font-size: 30px;
 }
-.subscribe__container{
+
+.subscribe__container {
     width: 100%;
     max-width: 1200px;
     display: flex;
@@ -82,17 +104,20 @@ body{
     padding: 0 20px;
     box-sizing: border-box;
 }
-.container__netflix{
+
+.container__netflix {
     position: relative;
     width: 100%;
     background-color: #FFFFFF;
     border-radius: 20px;
     box-sizing: border-box;
 }
-.subscribe__container{
+
+.subscribe__container {
     width: 100%;
 }
-.subscribe__wrapper{
+
+.subscribe__wrapper {
     position: relative;
     width: 100%;
     display: flex;
@@ -100,14 +125,16 @@ body{
     flex-direction: column;
     gap: 40px;
 }
-.text__netflix{
+
+.text__netflix {
     background-color: #FFFFFF;
     border-radius: 20px;
     padding: 60px 40px;
     max-width: 40%;
     width: 100%;
 }
-.image__netflix{
+
+.image__netflix {
     width: 50%;
     height: 29%;
     border-radius: 30px;
@@ -122,19 +149,22 @@ body{
     z-index: 2;
     padding: 106px 20px;
 }
-.image__netflix img{
+
+.image__netflix img {
     max-width: 130px;
     height: auto;
     display: block;
 }
-.info__text{
+
+.info__text {
     font-size: 13px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     max-width: 100%;
     padding-bottom: 15px;
 }
-.subscribe__button{
+
+.subscribe__button {
     background-color: blue;
     border: none;
     border-radius: 20px;
@@ -147,16 +177,14 @@ body{
     transition: background-color 0.3s ease;
     cursor: pointer;
 }
+
 .subscribe__button:hover {
     background-color: #606060;
     color: #FFFFFF;
 }
 
 
-
-
-
-.container__spotify{
+.container__spotify {
     position: relative;
     width: 100%;
     background-color: #FFFFFF;
@@ -164,14 +192,16 @@ body{
     box-sizing: border-box;
     margin-bottom: 30px;
 }
-.text__spotify{
+
+.text__spotify {
     background-color: #FFFFFF;
     border-radius: 20px;
     padding: 60px 40px;
     max-width: 40%;
     width: 100%;
 }
-.image__spotify{
+
+.image__spotify {
     width: 50%;
     height: 29%;
     border-radius: 30px;
@@ -186,7 +216,8 @@ body{
     z-index: 2;
     padding: 106px 20px;
 }
-.image__spotify img{
+
+.image__spotify img {
     max-width: 70%;
     border-radius: 30px;
     height: 250px;
@@ -194,9 +225,7 @@ body{
 }
 
 
-
-
-.container__youtube{
+.container__youtube {
     position: relative;
     width: 100%;
     background-color: #FFFFFF;
@@ -204,14 +233,16 @@ body{
     box-sizing: border-box;
     margin-bottom: 30px;
 }
-.text__youtube{
+
+.text__youtube {
     background-color: #FFFFFF;
     border-radius: 20px;
     padding: 60px 40px;
     max-width: 40%;
     width: 100%;
 }
-.image__youtube{
+
+.image__youtube {
     width: 50%;
     height: 29%;
     border-radius: 30px;
@@ -226,53 +257,58 @@ body{
     z-index: 2;
     padding: 106px 20px;
 }
-.image__youtube img{
+
+.image__youtube img {
     max-width: 300px;
     height: auto;
     display: block;
 }
 
 
-
-
-
-.steps__head{
+.steps__head {
     text-align: center;
 
 }
-.steps__items{
+
+.steps__items {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.step__item{
+
+.step__item {
     position: relative;
     background-color: #FFFFFF;
     border-radius: 20px;
     width: 100%;
     padding: 150px 40px 40px 40px;
 }
-.step__image{
+
+.step__image {
     position: absolute;
     top: 20px;
     right: 20px;
     width: 185px;
     height: 185px;
 }
-.step__image img{
+
+.step__image {
     width: 185px;
     height: 185px;
     object-fit: contain;
 }
-.step__header{
+
+.step__header {
     margin-bottom: 30px;
     font-weight: bold;
 }
-.step__info{
+
+.step__info {
     max-width: 200px;
     line-height: 150%;
 }
-.step__action-about{
+
+.step__action-about {
     position: relative;
     background-color: #1749B3;
     border-radius: 30px;
@@ -283,7 +319,8 @@ body{
     padding: 30px 50px 20px 35px;
     margin-top: 20px;
 }
-.step__action-link{
+
+.step__action-link {
     position: absolute;
     right: 40px;
     background-color: white;
@@ -293,32 +330,38 @@ body{
     padding: 40px 80px;
     text-align: center;
 }
-.step__action-text{
+
+.step__action-text {
     max-width: 30%;
     font-size: 21px;
 }
-.step__action-head{
+
+.step__action-head {
     font-size: 25px;
 }
-.step__action-link-text{
+
+.step__action-link-text {
     font-size: 25px;
 }
-.step__action-link-item{
+
+.step__action-link-item {
     font-size: 26px;
     color: blue;
 }
 
 
-.about__head{
+.about__head {
     text-align: center;
     font-size: 25px;
 }
-.about__wrapper{
+
+.about__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: center;
 }
+
 .about__info {
     background-color: white;
     color: black;
@@ -327,30 +370,61 @@ body{
     padding: 60px 40px;
     box-sizing: border-box;
 }
-.about__header{
+
+.about__header {
     padding-top: 20px;
 }
-.about__text{
+
+.about__text {
     max-width: 50%;
     padding-top: 20px;
 }
-.about__help{
+
+.about__help {
     padding-top: 30px;
     font-weight: bold;
 }
-.about__logo{
+
+.about__logo {
     max-width: 140px;
     height: auto;
 }
-.about__image{
+
+.about__image {
     width: 100%;
     border-radius: 25px;
     background-color: #FFFFFF;
-    display: flex; /*поставил ибо уменьшал картинку из за фона*/
+    display: flex;
     justify-content: center;
 }
-.about__image img{
-    width: 95%; /*если б картинка была без фона, то было бы 100% */
+
+.about__image img {
+    width: 95%;
     height: auto;
     object-fit: cover;
+}
+
+/**
+ * Responsive styles ( Desktop first )
+ */
+@media (max-width: 768px) {
+    .head__section .intro__wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .steps .steps__items {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .steps .step__item {
+        padding: 20px;
+    }
+
+    .steps .step__image {
+        height: 70px;
+        width: 70px;
+    }
+
 }
