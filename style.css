@@ -273,9 +273,84 @@ body{
     line-height: 150%;
 }
 .step__action-about{
+    position: relative;
     background-color: #1749B3;
     border-radius: 30px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding: 30px 50px 20px 35px;
+    margin-top: 20px;
+}
+.step__action-link{
+    position: absolute;
+    right: 40px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    top: 50px;
+    padding: 40px 80px;
+    text-align: center;
+}
+.step__action-text{
+    max-width: 30%;
+    font-size: 21px;
+}
+.step__action-head{
+    font-size: 25px;
+}
+.step__action-link-text{
+    font-size: 25px;
+}
+.step__action-link-item{
+    font-size: 26px;
+    color: blue;
+}
+
+
+.about__head{
+    text-align: center;
+    font-size: 25px;
+}
+.about__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.about__info {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    width: 100%;
+    padding: 60px 40px;
+    box-sizing: border-box;
+}
+.about__header{
+    padding-top: 20px;
+}
+.about__text{
+    max-width: 50%;
+    padding-top: 20px;
+}
+.about__help{
+    padding-top: 30px;
+    font-weight: bold;
+}
+.about__logo{
+    max-width: 140px;
+    height: auto;
+}
+.about__image{
+    width: 100%;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    display: flex; /*поставил ибо уменьшал картинку из за фона*/
+    justify-content: center;
+}
+.about__image img{
+    width: 95%; /*если б картинка была без фона, то было бы 100% */
+    height: auto;
+    object-fit: cover;
 }
