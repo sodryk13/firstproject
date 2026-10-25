@@ -5,6 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/layouts/_header.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./src/css/global.css">
     <link rel="stylesheet" href="./src/css/intro.css">
@@ -16,28 +18,55 @@
     <title>Document</title>
 </head>
 <body class="body">
-<section class="nav">
-    <div class="nav__container">
-    <div class="nav__wrapper">
-    <div class="nav__logo">
-        <div class="nav__logo-img">
-            <img src="./src/images/logo.jpg" alt="logo">
+<header class="header">
+    <div class="header__container">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <div class="header__logo-img">
+                    <img src="./src/images/logo.jpg" alt="logo">
+                </div>
+                <p>DiscountsOnServices</p>
+            </div>
+            <ul class="header__menu">
+                <li>
+                    <div class="header__menu-icon">
+                        <img src="./src/images/header/list-item-icon-1.svg" alt="list-item-icon">
+                    </div>
+                    <a href="#">Subscription</a>
+                    <ul class="header__menu-submenu">
+                        <li>
+                            <a href="#">Netflix</a>
+                        </li>
+                        <li>
+                            <a href="#">YouTube Premium</a>
+                        </li>
+                        <li>
+                            <a href="#">Spotify</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+            <div class="header__buttons">
+                <p>EN</p>
+                <button class="header__buttons-btn">Log In</button>
+            </div>
+            <div class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-        <p>DiscountsOnServices</p>
     </div>
-    <div class="nav__menu">
-        <P>Subscription</P>
-        <P>FAQ</P>
-        <P>Support</P>
-        <P>About</P>
-    </div>
-    <div class="nav__buttons">
-        <p>EN</p>
-        <button class="nav__buttons-btn">Log In</button>
-    </div>
-    </div>
-    </div>
-</section>
+</header>
 <section class="indent"></section>
 <section class="intro__section">
     <div class="intro__container">
@@ -146,7 +175,9 @@
                     <img src="./src/images/about-logo.jpg" alt="Logo">
                 </div>
                 <h4 class="about__header">We offer you a subscription to various media services at the best price.</h4>
-                <p class="about__text">We have partnered with several companies to help you find the best prices for your media subscriptions and provide you with the best prices for the Premium subscriptions you want.</p>
+                <p class="about__text">We have partnered with several companies to help you find the best prices for
+                    your media subscriptions and provide you with the best prices for the Premium subscriptions you
+                    want.</p>
                 <p class="about__help">It's simple, fast and economical.</p>
             </div>
             <div class="about__image">

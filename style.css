@@ -5,44 +5,6 @@ body {
     margin: 0;
 }
 
-.nav {
-    background-color: #FFFFFF;
-    position: fixed;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
-.nav__wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.nav__logo{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-.nav__logo-img{
-    width: 55px;
-    height: 55px;
-}
-.nav__menu{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-.nav__buttons{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-.nav__buttons-btn{
-    border: none;
-    color: #FFFFFF;
-    background-color: #1749B3;
-    border-radius: 12px;
-    padding: 15px 20px;
-}
 .intro__wrapper {
     display: flex;
     justify-content: center;
