@@ -1,0 +1,56 @@
+.about__head {
+    text-align: center;
+    font-size: 25px;
+}
+
+.about__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: stretch;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.about__info {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    width: 100%;
+    padding: 60px 40px;
+    box-sizing: border-box;
+}
+
+.about__header {
+    padding-top: 20px;
+}
+
+.about__text {
+    max-width: 50%;
+    padding-top: 20px;
+}
+
+.about__help {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.about__logo {
+    max-width: 140px;
+    height: auto;
+}
+
+.about__image {
+    width: 100%;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.about__image img {
+    width: 95%;
+    height: auto;
+    object-fit: cover;
+}
