@@ -2,9 +2,13 @@
     background-color: #1749B3;
     color: white;
     box-sizing: border-box;
-    padding: 40px 120px;
 }
 .footer__wrapper{
+    display: grid;
+    grid-template-columns: 33% 67%;
+    padding: 40px 0;
+}
+.footer__navigation-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #1749B3;
@@ -48,4 +52,32 @@
 }
 .footer__wrapper{
     margin-bottom: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .footer__info{
+        margin-bottom: 40px;
+    }
+    .footer__navigation-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: white;
+        box-sizing: border-box;
+    }
+    .footer__bottom{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: var(--footer-secondary-text-color);
+        font-size: 15px;
+        opacity: 0.5;
+        gap: 12px;
+        margin-bottom: 12px;
+    }
 }
