@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+      width: 55px;
+      height: 55px;
+      object-fit: contain;
+      display: block;
+    }
+  }
+  &__menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    a {
+      text-decoration: none;
+    }
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  &__buttons-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 9px 41px;
+    border-radius: 12px;
+    font-size: 17px;
+  }
+}
