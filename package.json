@@ -1,0 +1,24 @@
+
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sodryk13/firstproject#readme",
+  "bugs": {
+    "url": "https://github.com/sodryk13/firstproject/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodryk13/firstproject.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch src/scss:assets/css --style=compressed --source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}
