@@ -1,1 +1,10 @@
-@forward "variables";
+@use "../global/variables" as *;
+
+@mixin button-primary ($bgColor: $btn-primary-bg , $color : $btn-primary-text) {
+  color: $color;
+  background-color: $bgColor;
+  padding: 9px 41px;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: 500;
+}

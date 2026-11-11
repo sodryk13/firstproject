@@ -1,15 +1,16 @@
+@use "../global" as *;
+
+
 .intro {
   padding-top: 150px;
+
   &__wrapper {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 592px));
     gap: 16px;
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-    box-sizing: border-box;
   }
-  &__text{
+
+  &__text {
     background-color: #1749B3;
     padding: 114px 60px;
     border-radius: 32px;
@@ -20,25 +21,19 @@
     color: white;
     height: 500px;
   }
-  &__title{
+
+  &__title {
     font-size: 36px;
     font-weight: bold;
   }
-  &__subtitle{
+
+  &__subtitle {
     padding: 24px 0 40px 0;
   }
-  &__button{
-    border-radius: 16px;
-    padding: 16px 56px;
-    max-width: 50%;
-    border: none;
-    color: black;
-    font-weight: bold;
-    font-size: 17px;
+
+  &__button {
+    @include button-primary($btn-secondary-bg , $text-primary);
   }
-
-
-
 
 
   &__image {
@@ -63,9 +58,10 @@
       display: flex;
       flex-direction: column-reverse;
       gap: 16px;
-      padding: 20px;
+      padding: 20px 0;
     }
-    &__button{
+
+    &__button {
       max-width: 100%;
     }
   }
