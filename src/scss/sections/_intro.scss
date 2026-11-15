@@ -29,6 +29,7 @@
   }
   &__button{
     border-radius: 16px;
+    background-color: white;
     padding: 16px 56px;
     max-width: 50%;
     border: none;
@@ -57,6 +58,18 @@
 }
 
 
+@media (max-width: 768px) {
+  .intro {
+    &__wrapper {
+      max-width: 704px;
+      max-height: 291px;
+    }
+    &__button{
+      max-width: 100%;
+    }
+  }
+}
+
 @media (max-width: 375px) {
   .intro {
     &__wrapper {
@@ -64,6 +77,7 @@
       flex-direction: column-reverse;
       gap: 16px;
       padding: 20px;
+      margin-top: 300px;
     }
     &__button{
       max-width: 100%;

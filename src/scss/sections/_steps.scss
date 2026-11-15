@@ -1,0 +1,86 @@
+.steps {
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  &__head {
+    text-align: center;
+    margin-bottom: 37px;
+    font-size: 36px;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__item {
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  &__image {
+    align-self: flex-end;
+    margin-bottom: 24px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__header {
+    margin-bottom: 26px;
+    font-size: 22px;
+  }
+
+  &__info {
+    max-width: 55%;
+    padding-bottom: 40px;
+  }
+
+  &__action {
+    background-color: #1749B3;
+    border-radius: 32px;
+    padding: 40px 48px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  &__action-about {
+    display: flex;
+    align-items: center;
+  }
+
+  &__action-head {
+    font-size: 26px;
+    padding-bottom: 24px;
+  }
+
+  &__action-text {
+    max-width: 55%;
+  }
+
+  &__action-link {
+    background-color: white;
+    padding: 27px 75px;
+    border-radius: 16px;
+  }
+  &__action-link-text{
+    color: black;
+  }
+  &__action-link-item{
+    color: #1749B3;
+  }
+}
