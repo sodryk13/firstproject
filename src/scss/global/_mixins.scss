@@ -1,1 +1,31 @@
 @forward "variables";
+
+
+@mixin btnPrimary($btnColor:blue, $btnBgColor:black) {
+  border-radius: 16px;
+  background-color: $btnBgColor;
+  color: $btnColor;
+  padding: 40px;
+  &:hover {
+    color: red;
+  }
+}
+@mixin hdPrimary {
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 40px;
+}
+
+@mixin sbcPrimary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background-color: #FFFFFF;
+  border-radius: 32px;
+  overflow: hidden;
+  height: 342px;
+}
+@mixin wrpPrimary {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}

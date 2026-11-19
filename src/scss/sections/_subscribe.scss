@@ -1,10 +1,11 @@
+@use "../global/mixins" as*;
+
+
 .subscribe {
   padding: 80px 0;
 
   &__wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
+    @include wrpPrimary;
     padding: 0 20px;
     box-sizing: border-box;
     display: flex;
@@ -13,35 +14,19 @@
   }
 
   &__head {
-    text-align: center;
-    font-size: 36px;
+    @include hdPrimary;
   }
 
   &__netflix {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    background-color: #FFFFFF;
-    border-radius: 32px;
-    overflow: hidden;
-    height: 342px;
+    @include wrpPrimary;
   }
 
   &__spotify {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    background-color: #FFFFFF;
-    border-radius: 32px;
-    overflow: hidden;
-    height: 342px;
+    @include wrpPrimary;
   }
 
   &__youtube {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    background-color: #FFFFFF;
-    border-radius: 32px;
-    overflow: hidden;
-    height: 342px;
+    @include wrpPrimary;
   }
 
   &__text {
@@ -83,6 +68,8 @@
     display: block;
   }
 }
+
+
 
 
 @media (max-width: 375px) {

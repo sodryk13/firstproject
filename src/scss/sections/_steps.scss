@@ -1,3 +1,5 @@
+@use "../global/mixins" as*;
+
 .steps {
   &__container {
     max-width: 1200px;
@@ -6,9 +8,7 @@
   }
 
   &__head {
-    text-align: center;
-    margin-bottom: 37px;
-    font-size: 36px;
+    @include hdPrimary;
   }
 
   &__items {
