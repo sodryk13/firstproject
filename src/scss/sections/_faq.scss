@@ -11,6 +11,7 @@
     flex-direction: column;
     gap: 16px;
     justify-content: center;
+    margin-bottom: 40px;
   }
 
   &__item {
@@ -26,5 +27,14 @@
     height: 40px;
     background-color: $btn-arrow-bg-color;
     border-radius: 16px;
+  }
+  &__action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__button{
+    @include btnPrimary($btn-primary-text, $btn-btn-bg-color);
+    width: 245px;
   }
 }

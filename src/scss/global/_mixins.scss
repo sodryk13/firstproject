@@ -3,9 +3,13 @@
 
 @mixin btnPrimary($btnColor:blue, $btnBgColor:black) {
   border-radius: 16px;
+  width: initial;
   background-color: $btnBgColor;
   color: $btnColor;
-  padding: 40px;
+  padding: 16px 24px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
   &:hover {
     color: red;
   }
