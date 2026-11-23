@@ -22,18 +22,41 @@
     justify-content: space-between;
     align-items: center;
   }
-  &__item-arrow{
+
+
+  &__item-text {
+    max-width: 50%;
+  }
+
+  &__item-arrow {
     width: 40px;
     height: 40px;
     background-color: $btn-arrow-bg-color;
     border-radius: 16px;
+    @include buttonArrow;
   }
-  &__action{
+
+
+  &__info {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    height: 0;
+    white-space: wrap;
+
+    &--active {
+      opacity: 1;
+      height: auto;
+      margin-top: 20px;
+    }
+  }
+
+  &__action {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  &__button{
+
+  &__button {
     @include btnPrimary($btn-primary-text, $btn-btn-bg-color);
     width: 245px;
   }

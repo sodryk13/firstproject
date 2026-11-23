@@ -14,6 +14,7 @@
     color: red;
   }
 }
+
 @mixin hdPrimary {
   text-align: center;
   font-size: 36px;
@@ -27,4 +28,19 @@
   border-radius: 32px;
   overflow: hidden;
   height: 342px;
+}
+
+
+@mixin buttonArrow {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 7px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 7' fill='%233A3A3C'%3E%3Cpath d='M12.7092 2.69395C13.4087 2.18839 13.5401 1.24514 13.0026 0.587146C12.4651 -0.0708509 11.4623 -0.194426 10.7628 0.311133L5.69625 3.97272C4.99671 4.47828 4.86533 5.42152 5.40281 6.07952C5.94029 6.73752 6.94309 6.86109 7.64263 6.35554L12.7092 2.69395Z'/%3E%3Cpath d='M2.56904 0.315928C1.86882 -0.1888 0.866186 -0.064034 0.329591 0.594601C-0.207004 1.25324 -0.0743616 2.19633 0.625858 2.70106L5.69729 6.35662C6.39751 6.86135 7.40015 6.73658 7.93674 6.07795C8.47334 5.41931 8.3407 4.47622 7.64048 3.97149L2.56904 0.315928Z'/%3E%3C/svg%3E") center / contain no-repeat;
+  }
 }
