@@ -76,6 +76,21 @@ figure {
   margin-bottom: 0;
 }
 
+[class*="__container"] {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 15px;
+
+  @media (max-width: 768px) {
+    max-width: 704px;
+  }
+
+
+  @media (max-width: 375px) {
+    max-width: 330px;
+  }
+}
+
 
 .wrapper {
   display: flex;
@@ -85,5 +100,4 @@ figure {
   position: relative;
   padding-top: 74px;
   background-color: $bg-primary;
-
 }
