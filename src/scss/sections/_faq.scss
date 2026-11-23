@@ -1,0 +1,15 @@
+@use "../global/mixins" as*;
+
+.faq {
+  &__head {
+    @include hdPrimary;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+
+  }
+}
