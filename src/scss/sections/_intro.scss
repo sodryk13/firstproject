@@ -3,7 +3,6 @@
 .intro {
   padding-top: 150px;
   &__wrapper {
-    @include wrpPrimary;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 592px));
     gap: 16px;

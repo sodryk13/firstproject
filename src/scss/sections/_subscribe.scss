@@ -5,7 +5,6 @@
   padding: 80px 0;
 
   &__wrapper {
-    @include wrpPrimary;
     padding: 0 20px;
     box-sizing: border-box;
     display: flex;
@@ -15,18 +14,6 @@
 
   &__head {
     @include hdPrimary;
-  }
-
-  &__netflix {
-    @include wrpPrimary;
-  }
-
-  &__spotify {
-    @include wrpPrimary;
-  }
-
-  &__youtube {
-    @include wrpPrimary;
   }
 
   &__text {
