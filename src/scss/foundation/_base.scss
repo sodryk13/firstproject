@@ -101,3 +101,11 @@ figure {
   padding-top: 74px;
   background-color: $bg-primary;
 }
+
+.indent {
+  height: 120px;
+
+  @media (max-width: 768px) {
+    height: 100px;
+  }
+}
